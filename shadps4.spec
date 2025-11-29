@@ -24,7 +24,11 @@ BuildRequires: vulkan-devel
 BuildRequires: vulkan-validation-layers
 BuildRequires: libpng-devel
 BuildRequires: libuuid-devel
-
+BuildRequires: wayland-devel
+BuildRequires: wayland-protocols-devel
+BuildRequires: libxkbcommon-devel
+BuildRequires: mesa-libEGL-devel
+BuildRequires: libdecor-devel
 
 %description
 shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.

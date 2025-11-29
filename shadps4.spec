@@ -1,7 +1,7 @@
 %global commit a9f8eaf
 %global datetimever 202507181445%{commit}
 
-Name: shadPS4
+Name: shadps4-git
 Version: %{datetimever}
 Release: %autorelease.1
 Summary: shadPS4 is an early PlayStation 4 emulator.

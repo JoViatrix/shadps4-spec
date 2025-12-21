@@ -19,6 +19,7 @@ BuildRequires: openal-soft-devel
 BuildRequires: openssl-devel
 BuildRequires: libevdev-devel
 BuildRequires: libudev-devel
+BuildRequires: libXcursor-devel
 BuildRequires: libXext-devel
 BuildRequires: vulkan-devel
 BuildRequires: vulkan-validation-layers

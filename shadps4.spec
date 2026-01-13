@@ -1,8 +1,8 @@
-%global commit 910f737
-%global datetimever 202601120054910f737
+%global commit 540fdcc
+%global datetimever 202601130046540fdcc
 
 Name: shadps4-git
-Version: 202601120054910f737
+Version: 202601130046540fdcc
 Release: 1%{?dist}
 Summary: shadPS4 is an early PlayStation 4 emulator.
 
@@ -60,6 +60,9 @@ git submodule update --init --recursive
 %{_bindir}/shadps4
 
 %changelog
+* Tue Jan 13 2026 GitHub Actions <actions@github.com> - 202601130046540fdcc-1
+- Auto-update to shadPS4 commit 540fdcc
+
 * Mon Jan 12 2026 GitHub Actions <actions@github.com> - 202601120054910f737-1
 - Auto-update to shadPS4 commit 910f737
 

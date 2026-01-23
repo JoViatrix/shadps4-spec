@@ -30,6 +30,9 @@ BuildRequires: wayland-protocols-devel
 BuildRequires: libxkbcommon-devel
 BuildRequires: mesa-libEGL-devel
 BuildRequires: libdecor-devel
+BuildRequires: libXi-devel
+BuildRequires: libXScrnSaver-devel
+BuildRequires: libXinerama-devel
 
 %description
 shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.

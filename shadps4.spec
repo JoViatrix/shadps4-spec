@@ -34,6 +34,7 @@ BuildRequires: libXi-devel
 BuildRequires: libXScrnSaver-devel
 BuildRequires: libXinerama-devel
 BuildRequires: libXrandr-devel
+BuildRequires: cxxtest
 
 %description
 shadPS4 is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
